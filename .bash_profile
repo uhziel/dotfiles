@@ -9,8 +9,8 @@ export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bott
 
 # alias
 alias luarocks5.1='luarocks --lua-dir=/usr/local/opt/lua@5.1'
-alias sshnas='ssh -p8822 192.168.199.187'
 alias ll='ls -la'
+alias sshnas='ssh -p8822 192.168.199.187'
 alias sshw='ssh -i ~/.ssh/zhulei@h3d.com.cn-jumpserver.rsa -p 2222 "zhulei@h3d.com.cn@jms.h3d.com.cn"'
 alias nc='rlwrap nc'
 alias dgit='git --git-dir ~/.dotfiles/.git --work-tree=$HOME'
