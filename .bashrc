@@ -16,7 +16,7 @@ alias nc='rlwrap nc'
 alias dgit='git --git-dir ~/.dotfiles/.git --work-tree=$HOME'
 
 # add by quick-cocos2d-x setup, DATE: 2018-10-20 TIME: 22:13:35
-export QUICK_V3_ROOT=`cat ~/.QUICK_V3_ROOT`
+#export QUICK_V3_ROOT=`cat ~/.QUICK_V3_ROOT`
 
 # nativescript
 export PATH="/usr/local/opt/node@8/bin:$PATH"
