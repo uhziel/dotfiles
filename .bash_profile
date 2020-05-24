@@ -24,6 +24,12 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/H
 export ANDROID_HOME=/Users/zhulei/Development/adt-android/sdk
 export ANDROID_SDK_ROOT=/Users/zhulei/Development/adt-android/sdk
 export PATH=$PATH:/Users/zhulei/Development/adt-android/sdk/platform-tools/
+
+###-tns-completion-start-###
+if [ -f /Users/zhulei/.tnsrc ]; then
+    source /Users/zhulei/.tnsrc
+fi
+###-tns-completion-end-###
  
 export PATH="/usr/local/sbin:$PATH"
 
