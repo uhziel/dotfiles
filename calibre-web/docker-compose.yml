@@ -1,0 +1,15 @@
+version: "2.1"
+services:
+  calibre-web:
+    image: linuxserver/calibre-web
+    container_name: calibre-web
+    environment:
+      - PUID=1026
+      - PGID=100
+      - TZ=Asia/Shanghai
+    volumes:
+      - /var/services/homes/zhulei/calibre-web/config:/config
+      - /var/services/homes/zhulei/Drive/CalibreLibrary:/books
+    ports:
+      - 8083:8083
+    restart: unless-stopped
